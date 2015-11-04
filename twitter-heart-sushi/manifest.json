@@ -1,0 +1,16 @@
+{
+  "name": "Twitter-💓🍣",
+  "version": "0.1.0",
+  "icons": {
+    "16": "img/sushi.png",
+    "48": "img/sushi.png",
+    "128": "img/sushi.png"
+  },
+  "manifest_version": 2,
+  "description": "Replace hearts to other images.",
+  "content_scripts": [{
+    "matches": ["https://twitter.com/*"],
+    "js": ["js/jquery-2.1.4.min.js","js/script.js"],
+    "run_at": "document_start"
+  }]
+}
