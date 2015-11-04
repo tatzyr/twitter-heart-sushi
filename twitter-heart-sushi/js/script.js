@@ -11,6 +11,5 @@ function addCSSRule(selector, css) {
 
 $(function(){
   addCSSRule('.HeartAnimation', 'background: none !important;');
-  addCSSRule('.HeartAnimation', 'top: 6px; left: -12px;');
-  addCSSRule('.HeartAnimation:after', 'content: "🍣";');
+  addCSSRule('.HeartAnimationContainer:after', 'content: "🍣";');
 });
