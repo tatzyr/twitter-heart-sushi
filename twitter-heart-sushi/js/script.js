@@ -10,6 +10,11 @@ function addCSSRule(selector, css) {
 }
 
 $(function() {
+  // Like Button
   addCSSRule('.HeartAnimation', 'background: none !important;');
   addCSSRule('.HeartAnimationContainer:after', 'content: "🍣";');
+
+  // Notifications
+  addCSSRule('span.Icon.Icon--heartBadge', 'visibility: hidden;')
+  addCSSRule('span.Icon.Icon--heartBadge:before', 'content: "🍣"; visibility: visible;')
 });
