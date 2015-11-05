@@ -2,7 +2,7 @@
 
 Chrome add-on that lets you change the new Twitter Like Heart into :sushi:.
 
-<img width="640" alt="screenshot" src="https://cloud.githubusercontent.com/assets/1025461/10930305/4661da0e-8300-11e5-8eed-c75c19105f69.png">
+<img width="640" alt="screenshot2" src="https://github-cloud.s3.amazonaws.com/assets%2F1025461%2F10957033%2Ff77b899a-83a3-11e5-893c-dfbc6b1848f9.png">
 
 
 ## Installation
