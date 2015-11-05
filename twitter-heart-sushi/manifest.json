@@ -10,7 +10,7 @@
   "description": "Lets you change the new Twitter Like Heart into 🍣.",
   "content_scripts": [{
     "matches": ["https://twitter.com/*"],
-    "js": ["js/jquery-2.1.4.min.js","js/script.js"],
+    "js": ["js/jquery-2.1.4.min.js", "js/script.js"],
     "run_at": "document_start"
   }]
 }

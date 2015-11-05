@@ -1,15 +1,15 @@
 function addCSSRule(selector, css) {
-  var sheets = document.styleSheets,
-  sheet = sheets[sheets.length - 1];
+  var sheets = document.styleSheets;
+  var sheet = sheets[sheets.length - 1];
 
   if (sheet.insertRule) {
-    sheet.insertRule(selector + '{' +  css + '}', sheet.cssRules.length);
+    sheet.insertRule(selector + '{' + css + '}', sheet.cssRules.length);
   } else if (sheet.addRule) {
     sheet.addRule(selector, css, -1);
   }
 }
 
-$(function(){
+$(function() {
   addCSSRule('.HeartAnimation', 'background: none !important;');
   addCSSRule('.HeartAnimationContainer:after', 'content: "🍣";');
 });
