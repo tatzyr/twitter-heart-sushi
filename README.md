@@ -18,3 +18,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/Tatzyr
 ## Licence
 
 See [LICENSE](LICENSE).
+
+Icons provided free by [Emoji One](http://emojione.com) (modified).

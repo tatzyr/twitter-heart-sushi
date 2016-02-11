@@ -11,10 +11,10 @@ function addCSSRule(selector, css) {
 
 $(function() {
   // Like Button
-  addCSSRule('.HeartAnimation', 'background: none !important;');
-  addCSSRule('.HeartAnimationContainer:after', 'content: "🍣";');
+  addCSSRule('.HeartAnimationContainer', 'overflow: visible;');
+  addCSSRule('.HeartAnimation', 'background: url("chrome-extension://mjpkliiekogffkgegdgendlnbjllncem/img/sushi_nonanimation.png"); background-repeat: no-repeat; background-size: 2900%;');
 
   // Notifications
   addCSSRule('span.Icon.Icon--heartBadge', 'visibility: hidden;')
-  addCSSRule('span.Icon.Icon--heartBadge:before', 'content: "🍣"; visibility: visible;')
+  addCSSRule('span.Icon.Icon--heartBadge:before', 'margin: 0 0 0 -1px; content: " "; display: inline-block; width: 16px; height: 16px; background: url("chrome-extension://mjpkliiekogffkgegdgendlnbjllncem/img/sushi_notification.png"); background-size: contain; vertical-align: middle; visibility: visible;')
 });
