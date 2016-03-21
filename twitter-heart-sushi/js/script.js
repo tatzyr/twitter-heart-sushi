@@ -10,9 +10,12 @@ function addCSSRule(selector, css) {
 }
 
 $(function() {
-  // Like Button
-  addCSSRule('.HeartAnimationContainer', 'overflow: visible;');
-  addCSSRule('.HeartAnimation', 'background: url("chrome-extension://mjpkliiekogffkgegdgendlnbjllncem/img/sushi_nonanimation.png"); background-repeat: no-repeat; background-size: 2900%;');
+  // #LoveTwitter
+  if ($(".HeartAnimation--birthday").length === 0) {
+    // Like Button
+    addCSSRule('.HeartAnimationContainer', 'overflow: visible;');
+    addCSSRule('.HeartAnimation', 'background: url("chrome-extension://mjpkliiekogffkgegdgendlnbjllncem/img/sushi_nonanimation.png"); background-repeat: no-repeat; background-size: 2900%;');
+  }
 
   // Notifications
   addCSSRule('span.Icon.Icon--heartBadge', 'visibility: hidden;')
